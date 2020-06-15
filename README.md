@@ -2,7 +2,6 @@
 This repository works as a toolset and guide for a free open-source way of converting VHDL to Verilog code using [yosys](https://github.com/YosysHQ/yosys) and [GHDL](https://github.com/ghdl/ghdl).
 
 
-
 # Installation instructions
 
 ## Dependencies
@@ -18,4 +17,4 @@ where n is the number of cores you want to use. This allows for using parallel c
 	$ ./install_ghdl.sh
 
 # Test
-Run `./test.synth.sh' to test a synthesis of a test example. This should generate a file called *synth.v* in the current folder.
+Run `./test.synth.sh` to test a synthesis of a test example. This should generate a file called *synth.v* in the current folder.
